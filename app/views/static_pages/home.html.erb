@@ -1,0 +1,29 @@
+<div class="jumbotron">
+  <h1 class="home_title">Welcome to Pinterest!</h1>
+  <p>Welcome to Pinterest, an application where
+    you can connect with friends and family.</p>
+  <p class="home_button"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<!-- <h1 class="home_title">Welcome to Pinterest!</h1> -->
+
+<strong><p class="sign_up">
+  <% if user_signed_in? %>
+
+    Logged in as <strong><%= current_user.email %></strong>
+
+    <%= link_to 'Edit profile', edit_user_registration_path,
+    :class => 'navbar-link' %>
+    | <%= link_to "Logout", destroy_user_session_path, method: :delete,
+    :class => 'navbar-link' %>
+
+  <% else %>
+
+
+    <%= link_to "Sign Up", new_user_registration_path,
+    :class => 'navbar-link' %>
+    | <%= link_to "Login", new_user_session_path,
+    :class => 'navbar-link' %>
+
+    <% end %>
+</p><strong>

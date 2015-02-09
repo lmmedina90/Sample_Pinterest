@@ -1,0 +1,125 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.sign_up {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+}
+
+.home_button {
+  padding: 10px;
+}
+
+.jumbotron {
+  opacity: 0.8;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-brand a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.boards_title {
+  width: 350px;
+}
+
+.home_title {
+  width: 500px;
+}
+
+h1 {
+  padding: 10px 10px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  color: white;
+  border: 1px solid;
+  font-size: 14px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  opacity: 0.8;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+}
+
+td {
+  font-size: 14px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  background-color: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  background-image: url("mountains.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: fixed;
+  background-size: 1900px;
+  padding: 100px;
+}
+
+#navbar2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.field {
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.field input {
+  font-family: courier;
+  font-size: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.actions {
+  text-align: center;
+}
